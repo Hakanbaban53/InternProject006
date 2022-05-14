@@ -1,0 +1,32 @@
+div.container{
+    background-color: white;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 100px;
+    text-align: left;
+}
+p{
+    column-count: 2;
+    font-weight:500;
+    font-size: 16px;
+}
+button.sizi-arayalım{
+    text-align: center;
+    font-weight: 500;
+    color: rgba(135,93,30,255);
+    background-color: rgba(246,224,94,255);
+    border: 2px solid rgba(237,204,78,255);
+    border-radius: 20px;
+    width: 140px;
+    height:40px;
+}
+button.sizi-arayalım:hover{
+
+    background-color: rgb(255, 255, 135);
+
+}
+svg.telephone{
+    margin-right: 5px;
+}
