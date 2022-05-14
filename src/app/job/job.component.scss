@@ -1,0 +1,17 @@
+.container{
+    background-color: #edf2f7;
+}
+
+.row{
+    text-align: center;
+    padding-top: auto;
+    background-color: rgba(237,242,247,var(--bg-opacity));
+}
+
+.row :hover{
+    background-color: white; 
+}
+
+p{
+    margin-top: 10px;
+}
