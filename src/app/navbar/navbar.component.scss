@@ -1,3 +1,30 @@
 .btn{
     border-radius: 64px;
 }
+
+.nav-link{
+    padding:auto;
+
+width: 180px;
+
+height: 70px;
+
+font-weight: bold;
+
+font-family: Times;
+
+background: white;
+
+color: yellow;
+
+cursor: default;
+
+}
+
+.nav-link:hover {
+
+background: yellow;
+
+color: white;
+
+}
