@@ -3,19 +3,14 @@
 }
 
 .nav-link{
-    padding:auto;
-
-width: 180px;
-
-height: 70px;
-
+    padding:25px;
+    
+font-size: large;
 font-weight: bold;
 
-font-family: Times;
 
 background: white;
-
-color: yellow;
+color:#f6e05e;
 
 cursor: default;
 
@@ -23,8 +18,10 @@ cursor: default;
 
 .nav-link:hover {
 
-background: yellow;
-
+background:#fefcbf;
 color: white;
+}
 
+svg{
+    opacity:0.5;
 }
