@@ -1,3 +1,27 @@
 .btn{
     border-radius: 64px;
 }
+
+.nav-link{
+    padding:25px;
+    
+font-size: large;
+font-weight: bold;
+
+
+background: white;
+color:#f6e05e;
+
+cursor: default;
+
+}
+
+.nav-link:hover {
+
+background:#fefcbf;
+color: white;
+}
+
+svg{
+    opacity:0.5;
+}
