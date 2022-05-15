@@ -7,7 +7,10 @@
 
 }
 .btn:hover {
-    background:#fefcbf
+    background:#fefcbf;
+    border-color:#f6e05e;
+    border:2px solid #f6e05e;
+
 }
 
 .nav-link{
@@ -31,6 +34,7 @@ cursor: default;
 .nav-link:hover {
 
 background:#f6e05e;
+
 color: white;
 }
 
