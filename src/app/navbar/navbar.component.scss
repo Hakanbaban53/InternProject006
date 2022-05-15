@@ -1,16 +1,28 @@
 .btn{
+    color:#744210;
+    font-family:14px Poppins;    
     border-radius: 64px;
+    background:#f6e05e;
+    border-color: #fefcbf;
+
+}
+.btn:hover {
+    background:#fefcbf
 }
 
 .nav-link{
+
+    color: #4a5568;
+
     padding:25px;
+    font-family:14px Poppins;
     
-font-size: large;
-font-weight: bold;
+    font-size: large;
+    font-weight: bold;
 
 
-background: white;
-color:#f6e05e;
+    background: white;
+    color:#f6e05e;
 
 cursor: default;
 
@@ -18,10 +30,10 @@ cursor: default;
 
 .nav-link:hover {
 
-background:#fefcbf;
+background:#f6e05e;
 color: white;
 }
 
 svg{
-    opacity:0.5;
+    opacity:0.8;
 }
