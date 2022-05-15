@@ -1,6 +1,7 @@
 div.container-fluid{
 
     background-color: #ecc94b;
+    padding: 7px;
 
 }
 div.col{
@@ -8,18 +9,27 @@ div.col{
     font-size: 20px;
     padding: 12px 0px;
     
+    
 }
-a{
-    color: black;
-    font-family: 'Poppins', sans-serif; 
-    font-weight: bold;  
+div.row.align-items-start{
+    padding: 0px 32px;
+    margin-left:auto;
+    margin-right:auto;
+
+    width:70%;
+}
+a{ 
+    text-decoration: none;
+    color: #2d3748;
+    font-family: 'Poppins'; 
+    font-weight: 600;  
     background-color: #ecc94b;
     border: 0ch;
+    font-size: 1.25rem;
 }
 a.buton3{
-    font-family: 'Poppins', sans-serif; 
-    font-size: 18px;
-    font-weight: bold;  
+    font-family: 'Poppins'; 
+    font-weight: 600;  
     background-color: white;
     border: 0px;
     border-radius: 25px;
