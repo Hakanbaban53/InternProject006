@@ -1,5 +1,5 @@
 .container{
-    background-color: #edf2f7;
+    background-color: #edf2f7;  
 }
 
 .row{
@@ -8,10 +8,14 @@
     background-color: rgba(237,242,247,var(--bg-opacity));
 }
 
-.row :hover{
+.btn{
+    width: 33%;
+}
+
+.col :hover{
     background-color: white; 
 }
 
 p{
-    margin-top: 10px;
+    margin-top: 13px;
 }
