@@ -1,21 +1,49 @@
-.col{
-    border: 2px solid black;
+h3{
+    font-family: 30px Popping;
+    padding-left: 44%;
+    padding-top: 70px;
+    font-weight: 800;
+    font-size: xx-large;
 
 }
-
-.row{
-    width: 600px;
-    margin:10px;
-
+.hr{
+    width: 80px;
+    border: 3.5px solid #ecc94b;
+    background-color: #ecc94b;
+    border-radius: 9999px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
-.url{
-    padding:0 10px 10px 0 ;
+.bir{
+    border: 1px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    background-image: url(/assets/kurumsal.png);
+
+    padding:280px 256px 48px 48px;
+    background-repeat: no-repeat;
+    background-size: 620px 330px;
+    position: relative;
 }
 
-.ugh{
-    float:right;
-    padding:0 0 10px 10px;
+.baslik{
+    position: absolute;left:40px;top:80px;
+    padding-bottom: 60%;
+}
+
+.baslik2{
+    position: absolute;left:40px;top:110px;
+    padding-bottom: 60%;
+}
+
+.yazi{
+    position: absolute;left:40px;top:160px;
+    padding-bottom: 60%;
+}
+
+.yazi2{
+    position: absolute;left:40px;top:180px;
+    padding-bottom: 60%;
 }
 
 .btn{
@@ -24,11 +52,90 @@
     border-radius: 64px;
     background:#f6e05e;
     border-color: #fefcbf;
+    position: absolute;left:40px;top:240px;
+
 
 }
 .btn:hover {
     background:#fefcbf;
     border-color:#f6e05e;
     border:2px solid #f6e05e;
+
+}
+
+.iki{
+    position: relative;
+    border: 1px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    background-image: url(/assets/avukat.png);
+
+    padding:280px 256px 48px 48px;
+    background-repeat: no-repeat;
+    background-size: 620px 330px;
+
+
+}
+
+.baslik3{
+    position: absolute;left:40px;top:80px;
+    padding-bottom: 60%;
+
+}
+
+.baslik4{
+    position: absolute;left:40px;top:110px;
+    padding-bottom: 60%;
+
+}
+
+.yazi3{
+    position: absolute;left:40px;top:180px;
+    padding-bottom: 60%;
+
+}
+
+.yazi4{
+    position: absolute;left:40px;top:200px;
+    padding-bottom: 60%;
+
+}
+
+.uc{
+
+    border: 1px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    background-image: url(/assets/doktor.png);
+
+    padding:280px 256px 48px 48px;
+    background-repeat: no-repeat;
+    background-size: 620px 330px;
+    position: relative;
+}
+
+
+.baslik5{
+    position: absolute;left:40px;top:140px;
+    padding-bottom: 60%;
+}
+
+
+.bosluk{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bir:hover{
+transition: all .2s ease-in-out;
+box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+
+.iki:hover{
+    transition: all .2s ease-in-out;
+box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+
+.uc:hover{
+    transition: all .2s ease-in-out;
+box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
 
 }

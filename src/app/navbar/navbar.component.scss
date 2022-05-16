@@ -13,29 +13,30 @@
 
 }
 
+
 .nav-link{
 
     color: #4a5568;
-
-    padding:25px;
+    padding:20px;
     font-family:14px Poppins;
-    
     font-size: large;
     font-weight: bold;
-
-
     background: white;
-    color:#f6e05e;
 
-cursor: default;
+}
 
+.dropdown-item{
+    background:white;
+}
+
+.dropdown-item:hover{
+    background:#fefcbf;
 }
 
 .nav-link:hover {
 
 background:#f6e05e;
 
-color: white;
 }
 
 svg{
