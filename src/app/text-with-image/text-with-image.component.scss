@@ -1,14 +1,25 @@
 .image{
     background-image: url("/assets/hero.png");
     color: white;
-    padding: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     background-position: center center;
     text-align: center;
     background-size: cover;
+    height: 750px;
+    flex-direction: row;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header{
-    font-weight: 900;
+    font-weight: 900!important;
     font-family: 'Poppins';
     font-size: 64px;
 }
@@ -16,4 +27,5 @@
 .secondHeader{
     font-size: 18px;
     font-family: "Rubik";
+    flex-direction: row;
 }
