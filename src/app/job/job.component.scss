@@ -1,40 +1,29 @@
-.container-fluid{
-    background-color: #edf2f7;  
-    padding-left: 15rem;
-    padding-right: 15rem;
-    font-size: 14px;
-}
+.container-fluid {
+  background-color: #edf2f7;
+  font-size: 14px;
 
-.row{
+  .row {
     text-align: center;
-    background-color: rgba(237,242,247,var(--bg-opacity));
-    width: 100%;
-}
+    background-color: rgba(237, 242, 247, var(--bg-opacity));
+    .feridun {
+      border: 0.1px #e2e8f0 solid;
+      &:hover {
+        background-color: white;
+      }
 
-.col :hover{
-    background-color: white;
-}
+      .btn {
+        height: 50px;
+        width: 100%;
+        background-color: rgba(237, 242, 247, var(--bg-opacity));
+        padding-top: 12px;
+        font-family: "Poppins";
+        font-size: 14px;
+        font-weight: bold;
 
-.col{
-    padding: 0px;
-    width: 50%;
-}
-
-.btn{
-    height: 50px;
-    width: 100%;
-    background-color: rgba(237,242,247,var(--bg-opacity));
-    border: 0.1px #e2e8f0 solid;
-    padding-left: 20px;
-}
-
-p{
-    padding-top: 7px;
-    font-family: 'Poppins';
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.bi{
-    padding-bottom: 3px;
+        .bi {
+          padding-bottom: 3px;
+        }
+      }
+    }
+  }
 }
