@@ -36,3 +36,8 @@ div{
     color:black
 }
 
+  @media screen and (max-width: 1024px) {
+    .row {
+      display: none;
+    }
+  }
