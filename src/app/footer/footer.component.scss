@@ -2,11 +2,53 @@ div.container-fluid{
     background-color: #4a5568;
 }
 div.row.align-items-start{
+    padding: 40px 0px;
+    margin: 0px -48px;
     margin-left:auto;
     margin-right:auto;
     width:80%;
 }
+div.col{
+    font-size: 16px ;
+    margin: 0px 0px 12px;
+    padding: 0px 16px;
+}
+div.col1{
+    color: #edf2f7;
+}
+div.row.row-cols-5{
+    margin:24px -8px 0px;
+    box-sizing: border-box;
+    text-align: left;
+}
+div.fb.px-2{
+    width: 2.3rem;
+    height: 1.25rem;
+
+}
+div.tw.px-2{
+    width: 2.3rem;
+    height: 1.25rem;
+
+}
+div.ig.px-2{
+    width: 2.3rem;
+    height: 1.25rem;
+
+}
+div.in.px-2{
+    width: 2.3rem;
+    height: 1.25rem;
+
+}
+div.yt.px-2{
+    width: 2.3rem;
+    height: 1.25rem;
+}
 img.netger{
     padding:0px 0px 32px;
     width: 60%;
+}
+img.partner{
+    margin: 16px 0px 0px;
 }
