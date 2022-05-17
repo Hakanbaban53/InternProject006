@@ -1,13 +1,14 @@
 div.container-fluid{
     background-color: #4a5568;
-}
-div.row.align-items-start{
-    padding: 40px 0px;
+    .row{
+        padding: 40px 0px;
     margin: 0px -48px;
     margin-left:auto;
     margin-right:auto;
     width:80%;
+    }
 }
+
 div.col{
     font-size: 16px ;
     margin: 0px 0px 12px;
