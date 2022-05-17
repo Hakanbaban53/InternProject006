@@ -1,48 +1,40 @@
-div.container{
-    padding: 40px 0px;
-    
-}
-div.row.align-items-start{
-    background-color: #f5f9fc;
-}
-div{
-    row{
-        align-items-start{
-            background-color: #f5f9fc;
+.container-fluid {
+
+    .row {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        background-color: #f5f9fc;
+
+        .sutun {
+            .img-fluid {}
+
+            h1 {
+                text-align: left;
+                margin-top: 100px;
+                font-weight: bolder;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 500;
+
+                span { font-weight: bold; }
+            }
+
+            button {
+                width: 140px;
+                height: 40px;
+                font-weight: 500;
+                color: #744210;
+                text-align: center;
+                border-radius: 20px;
+                background-color: rgba(246, 224, 94, 255);
+                border: 2px solid rgba(237, 204, 78, 255);
+                &:hover { background-color: rgb(255, 255, 135);}
+
+                svg { margin-right: 5px;}
+            }
         }
     }
-}
 
-h1{
-    text-align: center;
-    font-weight: bolder;
-    margin-top: 100px;
-    text-align: left;
-}
-p{
-
-    column-count: 2;
-    font-weight:500;
-    font-size: 16px;
-}
-button.sizi-arayalım{
-    text-align: center;
-    font-weight: 500;
-    color: #744210;
-    background-color: rgba(246,224,94,255);
-    border: 2px solid rgba(237,204,78,255);
-    border-radius: 20px;
-    width: 140px;
-    height:40px;
-}
-span.kalin{
-    font-weight: bold;
-}
-button.sizi-arayalım:hover{
-
-    background-color: rgb(255, 255, 135);
-
-}
-svg.telephone{
-    margin-right: 5px;
 }
