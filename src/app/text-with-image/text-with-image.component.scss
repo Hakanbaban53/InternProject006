@@ -19,7 +19,7 @@
 }
 
 .header {
-  font-weight: 900 !important;
+  font-weight: 900;
   font-family: "Poppins";
   font-size: 64px;
 }
@@ -28,4 +28,13 @@
   font-size: 18px;
   font-family: "Rubik";
   flex-direction: row;
+}
+
+@media screen and(max-width: 1024px){
+    h1.header{
+        font-size: 30px;
+    }
+    p.secondHeader{
+        font-size:14px;
+    }
 }
