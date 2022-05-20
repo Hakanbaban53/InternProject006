@@ -12,8 +12,8 @@
 }
 
 .row{
-    padding-top: 120px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 
 .header{
@@ -21,9 +21,10 @@
 }
 
 .text{
-    width: 33%;
+    width: 35%;
     text-align: center;
     align-items: center;
+    padding-top: 20px;
 }
 
 p{
@@ -39,6 +40,8 @@ p{
     font-family:14px Poppins;    
     border-radius: 9999px;
     background:#f6e05e;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .btn:hover {
@@ -53,8 +56,7 @@ p{
     text-align: center;
 }
 
-.size{
-    height: 235px;
+.displayClass{
     display: flex;
     justify-content: center;
 }
@@ -64,7 +66,7 @@ p{
     align-items: center;
 }
 
-.col-2:hover{
+.col:hover{
     transform: scale(1.07);
 }
 
@@ -75,4 +77,18 @@ p{
 img{
     border-radius: 8px;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    width: 175px;
+    height: 235px;
+}
+
+.xlSize{
+    width: 175px;
+    height: 235px;
+}
+
+@media screen and(max-width:1140px){
+    a.xlSize{
+        width: 134px;
+        height: 180px;
+    }
 }
