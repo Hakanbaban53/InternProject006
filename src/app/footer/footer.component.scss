@@ -1,70 +1,72 @@
 div.container-fluid {
     background-color: #4a5568;
+    padding-top: 40px;
+    padding-bottom: 48px;
 
     .row {
-
-        padding-top: 40px;
-        padding-bottom: 48px;
         box-sizing: border-box;
         text-align: left;
-        
 
-        h3{
+        h3 {
             color: #f7fafc;
             font-family: "Rubik";
             font-size: 20px;
             font-weight: bold;
-            .baslik1{
+
+            .baslik1 {
                 margin: 2px 0px 20px;
             }
 
 
         }
-        
+
         .sutun {
 
             font-size: 16px;
-           
+
         }
+
         .col1 {
             color: #edf2f7;
             font-family: 'Rubik';
-            .social{
-                
-            }
-         
+
+            .social {}
+
             .fb.px-2 {
                 width: 2.3rem;
                 height: 1.25rem;
                 justify-content: flex-start;
                 display: flex row;
-            
+
             }
         }
 
 
     }
 }
-h3.baslik2{
-    margin: 20px 0px 20px ;
+
+h3.baslik2 {
+    margin: 20px 0px 20px;
 }
 
-ul{
+ul {
     list-style: none;
     padding-left: 0;
     margin: 20px 0px 15px;
 }
-li{
+
+li {
     font-family: 'Rubik';
     color: #cbd5e0;
     margin: 8px 0px 10px;
-    &:hover{
-        color:white;
+
+    &:hover {
+        color: white;
     }
 }
 
 img.netger {
-    padding: 0px 0px 32px;
+    padding: 0px 0px 20px;
     width: 60%;
 }
 
