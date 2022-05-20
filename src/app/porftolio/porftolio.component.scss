@@ -1,3 +1,7 @@
+.container-fluid{
+    background-color: #edf2f7;
+}
+
 .hr{
     width: 80px;
     border: 3.5px solid #ecc94b;
@@ -7,23 +11,13 @@
     margin-bottom: 15px;
 }
 
-.container-fluid{
-    background-color: #edf2f7;
-    width: 100%;
-    padding-left: 15%;
-    padding-right: 15%;
-
-}
-
 .row{
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    font-family: Rubik;
-    box-sizing: border-box;
+    padding-top: 120px;
+    padding-bottom: 100px;
 }
 
-h2{
-    font-weight: 900;
+.header{
+    font-weight: 700;
 }
 
 .text{
@@ -33,8 +27,10 @@ h2{
 }
 
 p{
-    font-size: 1rem;
     line-height: 1.625;
+    font-family: Rubik;
+    font-size: 16px;
+    padding-top: 10px;
 }
 
 .btn{
@@ -48,21 +44,35 @@ p{
 .btn:hover {
     background:#fefcbf;
     border-color:#f6e05e;
-    border:2px solid #f6e05e;
-
+    border:2px solid #f6e05e;   
 }
 
-.img{
-    background-size: 15% 15%;
-}
 
-.port{
-    margin-left: 2rem;
-    padding-right: 2rem;
-    display: inline-block;
-
-}
 .portfolio{
     font-weight: 67%;
     text-align: center;
+}
+
+.size{
+    display: flex;
+    justify-content: center;
+}
+
+.colon{
+    text-align: center;
+    align-items: center;
+}
+
+.col-2:hover{
+    transform: scale(1.07);
+}
+
+.transition{
+    transition: all .2s ease-in-out;
+}
+
+img{
+    border-radius: 8px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    width: 100%;
 }
