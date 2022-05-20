@@ -5,55 +5,62 @@ div.container-fluid {
 
         padding-top: 40px;
         padding-bottom: 48px;
+        box-sizing: border-box;
+        text-align: left;
+        
 
+        h3{
+            color: #f7fafc;
+            font-family: "Rubik";
+            font-size: 20px;
+            font-weight: bold;
+            .baslik1{
+                margin: 2px 0px 20px;
+            }
+
+
+        }
+        
         .sutun {
+
             font-size: 16px;
+           
         }
         .col1 {
             color: #edf2f7;
+            font-family: 'Rubik';
+            .social{
+                
+            }
+         
+            .fb.px-2 {
+                width: 2.3rem;
+                height: 1.25rem;
+                justify-content: flex-start;
+                display: flex row;
+            
+            }
         }
 
 
     }
 }
-
-div.col {}
-
-div
-
-div.row.row-cols-5 {
-    margin: 24px -8px 0px;
-    box-sizing: border-box;
-    text-align: left;
+h3.baslik2{
+    margin: 20px 0px 20px ;
 }
 
-div.fb.px-2 {
-    width: 2.3rem;
-    height: 1.25rem;
-
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0px 15px;
 }
-
-div.tw.px-2 {
-    width: 2.3rem;
-    height: 1.25rem;
-
-}
-
-div.ig.px-2 {
-    width: 2.3rem;
-    height: 1.25rem;
-
-}
-
-div.in.px-2 {
-    width: 2.3rem;
-    height: 1.25rem;
-
-}
-
-div.yt.px-2 {
-    width: 2.3rem;
-    height: 1.25rem;
+li{
+    font-family: 'Rubik';
+    color: #cbd5e0;
+    margin: 8px 0px 10px;
+    &:hover{
+        color:white;
+    }
 }
 
 img.netger {
