@@ -178,6 +178,12 @@ box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
     }
 }
 
+@media screen and(max-width:1024px){
+    .binyirmidort{
+        display:none;
+    }
+}
+
 .btn1{
     padding: 6px 12px;
     box-shadow: unset;
@@ -232,4 +238,12 @@ box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
     position: relative;
 
 
+}
+
+
+
+@media screen and(min-width:1024px){
+    .gerikalan{
+        display:none;
+    }
 }
