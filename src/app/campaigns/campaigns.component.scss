@@ -1,9 +1,9 @@
 h3{
     font-family: 30px Popping;
-    padding-left: 44%;
-    padding-top: 70px;
     font-weight: 800;
     font-size: xx-large;
+    display: flex;
+    justify-content: center;
 
 }
 .hr{
@@ -102,6 +102,7 @@ h3{
 
 .uc{
 
+
     border: 1px;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
     background-image: url(/assets/doktor.png);
@@ -143,4 +144,106 @@ box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
 .bosluk2{
     padding-top: 30px;
     padding-bottom: 6rem;
+}
+
+@media screen and(max-width:1280px){
+    .binikiyuzseksen{
+        display:none;
+    }
+}
+
+
+.binyirmidort{
+    margin:0 auto 0 auto;
+	display:table;
+}
+
+
+
+.dort{
+    border: 1px;
+    width: 940px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    background-image: url(/assets/kampanyalariki.png);
+    padding:170px 400px 48px 48px;
+    background-repeat: no-repeat;
+    background-size: 940px 220px;
+    position: relative;
+
+}
+
+@media screen and(min-width:1280px){
+    .binyirmidort{
+        display:none;
+    }
+}
+
+@media screen and(max-width:1024px){
+    .binyirmidort{
+        display:none;
+    }
+}
+
+.btn1{
+    padding: 6px 12px;
+    box-shadow: unset;
+    color:#744210;
+    font-family:14px Poppins;    
+    border-radius: 64px;
+    background:#f6e05e;
+    border-color: #fefcbf;
+    position: absolute;left:40px;top:120px;
+
+
+}
+.btn1:hover {
+    background:#fefcbf;
+    border-color:#f6e05e;
+    border:2px solid #f6e05e;
+
+}
+
+.baslik6{
+    position: absolute;left:40px;top:30px;
+    padding-bottom: 60%;
+    
+}
+
+.yazi5{
+    position: absolute;left:40px;top:80px;
+    padding-bottom: 60%;
+}
+
+.bes{
+    border: 1px;
+    width: 940px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    background-image: url(/assets/avukatiki.png);
+    padding:170px 400px 48px 48px;
+    background-repeat: no-repeat;
+    background-size: 940px 220px;
+    position: relative;
+
+
+}
+
+.alti{
+    border: 1px;
+    width: 940px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    background-image: url(/assets/doktoriki.png);
+    padding:170px 10px 48px 48px;
+    background-repeat: no-repeat;
+    background-size: 940px 220px;
+    position: relative;
+
+
+}
+
+
+
+@media screen and(min-width:1024px){
+    .gerikalan{
+        display:none;
+    }
 }
