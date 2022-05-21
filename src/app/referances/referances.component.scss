@@ -1,5 +1,11 @@
 div.container-fluid {
     text-align: center;
+    .row{
+        padding: 0px 32px;
+        .ref{
+            padding: 20px;
+        }
+    }
 }
 
 img {
