@@ -195,6 +195,7 @@ box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
     position: absolute;left:40px;top:120px;
 
 
+
 }
 .btn1:hover {
     background:#fefcbf;
@@ -253,6 +254,7 @@ box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
 .gerikalan{
     margin:0 auto 0 auto;
 	display:table;
+   
 }
 
 .yedi{
@@ -294,3 +296,13 @@ box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
 }
 
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and(min-width:1024px){
+    .gerikalan{
+        display:none;
+    }
+}
