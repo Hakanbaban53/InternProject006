@@ -258,8 +258,8 @@ box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
 }
 
 .yedi{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 70px;
     padding-left: 30px;
     border: 1px;
 
@@ -274,8 +274,8 @@ box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
 }
 
 .sekiz{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 70px;
     padding-left: 30px;
     border: 1px;
 
@@ -285,8 +285,8 @@ box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
 }
 
 .dokuz{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 70px;
     padding-left: 30px;
     border: 1px;
 
@@ -305,4 +305,24 @@ img{
     .gerikalan{
         display:none;
     }
+}
+
+.btn2{
+    padding: 6px 12px;
+    box-shadow: unset;
+    color:#744210;
+    font-family:14px Poppins;    
+    border-radius: 64px;
+    background:#f6e05e;
+    border-color: #fefcbf;
+    position: absolute;left:25px;top:120px;
+
+
+
+}
+.btn2:hover {
+    background:#fefcbf;
+    border-color:#f6e05e;
+    border:2px solid #f6e05e;
+
 }
