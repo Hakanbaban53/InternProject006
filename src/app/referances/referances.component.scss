@@ -1,9 +1,24 @@
 div.container-fluid {
     text-align: center;
-    .row{
+
+    .mb-3 {
+        width: 80px;
+        border: 3.5px solid #ecc94b;
+        background-color: #ecc94b;
+        border-radius: 9999px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .row {
         padding: 0px 32px;
-        position:relative;
-        .ref{
+        position: relative;
+
+        .ref {
             padding: 20px;
         }
     }
@@ -12,72 +27,94 @@ div.container-fluid {
 img {
     transition: transform .2s;
     filter: grayscale(100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 
     &:hover {
         filter: none;
         transform: scale(1.1);
     }
 }
+
 img.res1 {
-    width: 180px;
-    height: 50px;
+    width: 100%;
+    height: auto;
+    max-width: 208px;
+
 }
+
 img.res2 {
     width: 200px;
     height: 100px;
 }
+
 img.res3 {
     width: 180px;
     height: 35px;
 }
+
 img.res4 {
     width: 203px;
     height: 111px;
 }
+
 img.res5 {
     width: 150px;
     height: 30px;
 }
+
 img.res6 {
     width: 178px;
     height: 100px;
 }
+
 img.res7 {
     width: 200px;
     height: 50px;
 }
+
 img.res8 {
     width: 180px;
     height: 60px;
 }
+
 img.res9 {
     width: 180px;
     height: 70px;
 }
+
 img.res10 {
     width: 190px;
     height: 70px;
 }
+
 img.res11 {
     width: 170px;
     height: 40px;
 }
+
 img.res12 {
     width: 200px;
     height: 100px;
 }
+
 img.res13 {
     width: 180px;
     height: 80px;
 }
+
 img.res14 {
     width: 170px;
     height: 90px;
 }
+
 img.res15 {
     width: 180px;
     height: 90px;
 }
+
 img.res16 {
     width: 180px;
     height: 90px;
@@ -87,26 +124,32 @@ img.res17 {
     width: 180px;
     height: 90px;
 }
+
 img.res18 {
     width: 180px;
     height: 90px;
 }
+
 img.res19 {
     width: 180px;
     height: 90px;
 }
+
 img.res20 {
     width: 180px;
     height: 90px;
 }
+
 img.res21 {
     width: 180px;
     height: 90px;
 }
+
 img.res22 {
     width: 180px;
     height: 90px;
 }
+
 img.res23 {
     width: 180px;
     height: 90px;
@@ -116,14 +159,17 @@ img.res24 {
     width: 180px;
     height: 90px;
 }
+
 img.res25 {
     width: 180px;
     height: 90px;
 }
+
 img.res26 {
     width: 180px;
     height: 90px;
 }
+
 img.res27 {
     width: 180px;
     height: 90px;

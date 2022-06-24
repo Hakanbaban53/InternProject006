@@ -1,15 +1,17 @@
 .container-fluid {
 
     .row {
+        @media (max-width: 992px) { 
+            text-align: center;
+         }
         padding-top: 6rem;
         padding-bottom: 6rem;
         background-color: #f5f9fc;
 
         .sutun {
-            .img-fluid {}
+            
 
             h1 {
-                text-align: left;
                 margin-top: 100px;
                 font-weight: bolder;
             }
