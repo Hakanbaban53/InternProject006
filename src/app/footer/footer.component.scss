@@ -1,98 +1,99 @@
 div.container-fluid {
-    background-color: #4a5568;
     padding-top: 40px;
     padding-bottom: 48px;
-    @media (max-width: 768px) { 
+    background-color: #4a5568;
+
+    @media (max-width: 768px) {
         padding-top: 40px;
         padding-bottom: 48px;
-     }
+
+    }
 
     .row {
-        box-sizing: border-box;
         text-align: left;
-        @media (max-width: 768px) { 
-            padding: 20px 0px 20px;
+        box-sizing: border-box;
+
+        @media (max-width: 768px) {
             text-align: center;
-            .px-2{
-                text-align: center
+            padding: 20px 0px 20px;
+
+            .px-2 { text-align: center}
+        }
+
+        ul {
+            padding-left: 0;
+            list-style: none;
+            margin: 20px 0px 15px;
+
+            li {
+                color: #cbd5e0;
+                font-family: 'Rubik';
+                margin: 8px 0px 10px;
+
+                &:hover { color: white;}
             }
-         }
+        }
+
+
 
         h3 {
-            color: #f7fafc;
-            font-family: "Rubik";
             font-size: 20px;
+            color: #f7fafc;
             font-weight: bold;
+            font-family: "Rubik";
 
-            .baslik1 {
-                margin: 2px 0px 20px;
-            }
-
+            .baslik1 { margin: 2px 0px 20px;}
 
         }
 
         .sutun {
-            @media (max-width: 768px) { 
+            @media (max-width: 768px) {
                 padding-top: 10px;
                 padding-bottom: 18px;
-             }
+
+            }
 
             font-size: 16px;
 
+            h3 { .baslik2 { margin: 20px 0px 20px;}}
+
+            img.netger {
+                width: 50%;
+                height: auto;
+                min-width: 170px;
+                padding: 0px 0px 20px;
+
+                @media (max-width: 768px) {
+                    width: 25%;
+                    min-width: 160px;
+                    text-align: center;
+
+                }
+            }
+
+            img.partner { margin: 16px 0px 0px;}
         }
 
         .col1 {
             color: #edf2f7;
             font-family: 'Rubik';
-            @media (max-width: 768px) { 
 
-               div.col2{ justify-content: center;
-                align-items: center;
-                margin-left: auto;
-                margin-right: auto;}
-             }
+            @media (max-width: 768px) {
+
+                .col2 {
+                    margin-left: auto;
+                    margin-right: auto;
+                    align-items: center;
+                    justify-content: center;
+
+                }
+            }
 
             .fb.px-2 {
-               
                 width: 2.3rem;
                 height: 1.25rem;
+
             }
         }
-
-
     }
-}
-
-h3.baslik2 {
-    margin: 20px 0px 20px;
-}
-
-ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 20px 0px 15px;
-}
-
-li {
-    font-family: 'Rubik';
-    color: #cbd5e0;
-    margin: 8px 0px 10px;
-
-    &:hover {
-        color: white;
-    }
-}
-
-img.netger {
-    padding: 0px 0px 20px;
-    height: auto;
-    width: 50%;
-    @media (max-width: 768px) { 
-        text-align: center;
-        width: 25%;
-     }
-}
-
-img.partner {
-    margin: 16px 0px 0px;
 }

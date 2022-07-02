@@ -4,31 +4,30 @@
     .row {
 
         .sutun {
-            font-family: 'Poppins';
-            text-align: center;
-            font-weight: bold;
-            font-size: 20px;
             padding: 14px;
-
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            font-family: 'Poppins';
+            
             .buton3 {
-                background-color: white;
-                border-radius: 25px;
-                padding: 8px 12px;
-                font-weight: 600;
                 font-size: 18px;
-                //border: 0px;
-
+                font-weight: 600;
+                padding: 8px 12px;
+                border-radius: 25px;
+                background-color: white;
+            
             }
 
             .a {
-                background-color: #ecc94b;
-                font-family: 'Poppins';
-                text-decoration: none;
-                font-size: 1.25rem;
-                color: #2d3748;
                 font-weight: 600;
+                color: #2d3748;
+                font-size: 1.25rem;
+                text-decoration: none;
+                font-family: 'Poppins';
+                background-color: #ecc94b;
+                
             }
-
         }
     }
 }
