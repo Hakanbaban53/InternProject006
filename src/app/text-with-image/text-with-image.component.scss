@@ -10,24 +10,21 @@
   background-size: cover;
   height: 750px;
   flex-direction: row;
-}
-
-.text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.header {
-  font-weight: 900;
-  font-family: "Poppins";
-  font-size: 64px;
-}
-
-.secondHeader {
-  font-size: 18px;
-  font-family: "Rubik";
-  flex-direction: row;
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .header {
+      font-weight: 900;
+      font-family: "Poppins";
+      font-size: 64px;
+    }
+    .secondHeader {
+      font-size: 18px;
+      font-family: "Rubik";
+      flex-direction: row;
+    }
+  }
 }
 
 @media screen and(max-width: 1024px){
