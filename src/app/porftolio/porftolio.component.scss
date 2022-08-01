@@ -35,12 +35,15 @@
         border: 2px solid #f6e05e;
       }
     }
-    .colon {
+    .items {
       text-align: center;
       align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
 
-    .col:hover {
+    .transform:hover {
       transform: scale(1.07);
     }
     .portfolio {
@@ -71,11 +74,16 @@
       height: 235px;
     }
 
+    @media screen and(max-width:1280px) {
+      a.xlSize {
+        height: 180px;
+      }
+    }
     @media screen and(max-width:1140px) {
       a.xlSize {
-        width: 134px;
         height: 180px;
       }
     }
   }
+
 }
